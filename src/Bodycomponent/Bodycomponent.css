@@ -1,0 +1,506 @@
+
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+
+/* .div2{
+    display: flex;
+    margin-left: 380px;
+}
+.div3{
+    display: flex;
+    margin-left: 380px;
+}
+.div4{
+    display: inline;
+  
+} */
+.div4 {
+    display: flex;
+    justify-content: center; 
+    gap: 20px; 
+    flex-wrap: wrap; 
+  }
+  
+  .div2, .div3 {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 20px; 
+  }
+  
+  .i1, .i2, .i3, .i4, .i5, .i6, .i7, .i8, .i9, .i10 {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+  }
+  
+  /* img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+  }
+  
+  p {
+    font-family: cursive;
+    font-size: 20px;
+    margin-top: 10px;
+  } */
+  
+.img2{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+
+.p1{
+    font-family: cursive;
+    font-size: 20px;
+    margin-left: 0px;
+}
+.img3{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    margin-right: 40px;
+
+}
+.p2{
+    font-family: cursive;
+    font-size: 20px;
+}
+.img4{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    margin-right: 40px;
+
+}
+.p3{
+    font-family: cursive;
+    font-size: 20px;
+}
+.img5{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    margin-right: 40px;
+
+}
+.p4{
+    font-family: cursive;
+    font-size: 20px;
+}
+.img6{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    margin-right: 40px;
+
+}
+.p5{
+    font-family: cursive;
+    font-size: 20px;
+}
+.img7{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    margin-right: 40px;
+
+}
+.p6{
+    font-family: cursive;
+    font-size: 20px;
+}
+.img8{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    margin-right: 40px;
+
+}
+.p7{
+    font-family: cursive;
+    font-size: 20px;
+}
+.img9{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    margin-right: 40px;
+
+}
+.p8{
+    font-family: cursive;
+    font-size: 20px;
+}
+.img10{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    margin-right: 40px;
+
+}
+.p9{
+    font-family: cursive;
+    font-size: 20px;
+}
+.img11{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    margin-right: 40px;
+
+}
+.p10{
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.se2{
+    border: 2px solid #10182F;
+    margin-top: 150px;
+    width: 600px;
+    padding-top: 19px;
+    padding-bottom: 10px;
+    font-family: cursive;
+    font-size: 20px;
+}
+.btn1{
+    padding-top: 21px;
+    padding-bottom: 11px;
+}
+.img12{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.p11{
+    font-family: cursive;
+    color: #1365ac;
+    float: left;
+    margin-left: 300px;
+    margin-top: 50px;
+    font-size: 40px;
+}
+.p12{
+    margin-top: 0px;
+    float: left;
+    margin-left: 200px;
+    font-size: 25px;
+    margin-right: 100px;
+    font-family: cursive;
+    
+    
+}
+.img13{
+    float: right;
+}
+.div8{
+    display: flex;
+    margin-top: 100px;
+}
+
+.b2{
+    border-radius: 30px;
+    background-color: #1365ac;
+    margin-top: 110px;
+}
+.underline {
+    position: relative;
+    font-size: 40px; 
+
+    text-align: center; 
+    color: #1365ac; 
+    font-family: cursive;
+  }
+  
+  .underline::after {
+    content: ""; 
+    position: absolute;
+    bottom: -5px; 
+    left: 45%; 
+    width: 100px; 
+    height: 4px; 
+    background-color: #1365ac; 
+
+  }
+  .p13{
+    font-family: cursive;
+    font-size: 25px;
+    margin-left: 300px;
+    margin-right: 300px;
+
+  }
+.img12{
+    height: 100%;
+    width: 100%;
+
+}
+.div11 {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .div12 {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-right: 20px;
+    text-align: center;
+    margin-top: 30px;
+    flex: 1; 
+  }
+  
+  .img14{
+    width: 80px; 
+    height: 80px;
+    margin-bottom: 15px;
+  }
+  
+  .h11 {
+    color: #1365ac; 
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: cursive;
+  }
+  
+  .p14{
+    color: #10182F; 
+    font-size: 18px;
+    
+    font-family: cursive;
+  }
+  
+
+  .p15{
+    font-family: cursive;
+    font-size: 25px;
+    margin-left: 300px;
+    margin-right: 300px;
+
+  }
+  .h12 {
+    position: relative;
+    font-size: 40px; 
+
+    text-align: center; 
+    color: #1365ac; 
+    font-family: cursive;
+  }
+  
+  .h12::after {
+    content: ""; 
+    position: absolute;
+    bottom: -5px; 
+    left: 45%; 
+   
+    width: 100px; 
+    height: 4px; 
+    background-color: #1365ac; 
+
+  }
+.div15{
+    display: flex;
+}
+.p16,.p17{
+    font-family: cursive;
+    font-size: 20px;
+}
+.h13,.h14{
+    font-family: cursive;
+    font-size: 30px;
+    color: #1365ac;
+}
+.h15{
+    color: #1365ac;
+    font-family: cursive;
+    font-size: 30px;
+    margin-top: 3px;
+}
+.p18{
+    font-family: cursive;
+    font-size: 20px;
+    margin-top: 0px;
+}
+.div16,.div17,.div18{
+    
+    margin-left: 100px;
+}
+.div19{
+    /* background-color: #1365ac; */
+    height: 100%;
+    width: 100%;
+}
+.h16{
+    font-size: 40px;
+    color: #1365ac;
+    font-family: cursive;
+}
+.p19{
+    font-family: cursive;
+    font-size: 20px;
+    color: #10182F;
+    margin-left: 300px;
+    margin-right: 400px;
+
+}
+.img16{
+    float: left;
+    margin-top: 30px;
+
+}
+.div21{
+    background-color: white;
+    /* border-radius: 20px; */
+    width: 300px;
+    height: 50px;
+    font-family: cursive;
+    margin-left: 200px;
+    margin-right: 100px;
+}
+/* .div22{
+    background-color: #1365ac;
+    height: 900px;
+    width: 1600px;
+
+} */
+.div30{
+    display: flex;
+}
+.div31{
+    display: flex;
+    margin-top: 120px;
+}
+.div32{
+    display: flex;
+    margin-top: 120px;
+}
+.img17{
+    float: left;
+    margin-top: 30px;
+}
+
+.div22{
+    background-color: white;
+    /* border-radius: 20px; */
+    width: 300px;
+    height: 50px;
+    font-family: cursive;
+    margin-right: 100px;
+}
+.img18{
+    float: left;
+    margin-top: 30px;
+}
+.div23{
+    background-color: white;
+    /* border-radius: 20px; */
+    width: 300px;
+    height: 50px;
+    font-family: cursive;
+    margin-right: 100px;
+}
+.img19{
+    float: left;
+    margin-top: 30px;
+}
+.div24{
+    background-color: white;
+    /* border-radius: 20px; */
+    width: 300px;
+    height: 50px;
+    font-family: cursive;
+    margin-right: 100px;
+    margin-left: 200px;
+}
+.img20{
+    float: left;
+    margin-top: 30px;
+}
+.div25{
+    background-color: white;
+    /* border-radius: 20px; */
+    width: 300px;
+    height: 50px;
+    font-family: cursive;
+    margin-right: 100px;
+}
+.h21{
+    font-size: 25px;
+}
+.img21{
+    float: left;
+    margin-top: 30px;
+}
+.div26{
+    background-color: white;
+    /* border-radius: 20px; */
+    width: 300px;
+    height: 50px;
+    font-family: cursive;
+    margin-right: 100px;
+}
+.img22{
+    float: left;
+    margin-top: 30px;
+}
+.div27{
+    background-color: white;
+    /* border-radius: 20px; */
+    width: 300px;
+    height: 50px;
+    font-family: cursive;
+    margin-right: 100px;
+    margin-left: 200px;
+
+}
+.img23{
+    float: left;
+    margin-top: 30px;
+}
+.div28{
+    background-color: white;
+    /* border-radius: 20px; */
+    width: 300px;
+    height: 50px;
+    font-family: cursive;
+    margin-right: 100px;
+}
+.img24{
+    float: left;
+    margin-top: 30px;
+}
+.div29{
+    background-color: white;
+    /* border-radius: 20px; */
+    width: 300px;
+    height: 50px;
+    font-family: cursive;
+    margin-right: 100px;
+}
+/* .div20{
+    background-color: #1365ac;
+} */
+.p20,.p21,.p22,.p23,.p24,.p25,.p26,.p27,.p28{
+    font-size: 20px;
+}
+.h13,.h14,.h15,.h16,.h17,.h18,.h19,.h20,.h21,.h22,.h23,.h24,.h25{
+    color: #1365ac;
+}

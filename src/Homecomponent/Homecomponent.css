@@ -1,0 +1,123 @@
+/* General Button Styles */
+button {
+    padding: 0px;
+    margin-top: 30px;
+    background-color: #10182F;
+    color: white;
+    /* padding: 10px; */
+    border: none;
+    font-family: cursive;
+    font-size: 20px;
+    margin-right: 50px;
+    cursor: pointer; /* Ensure the pointer icon appears on hover */
+}
+
+/* Image Styling */
+.img1 {
+    margin-right: 90px;
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+/* Main Container Styling */
+.main {
+    display: flex;
+    background-color: #10182F;
+    /* padding: 10px; */
+}
+
+.se {
+    padding-top: 21px;
+    padding-left: 15px;
+    padding-bottom: 12px;
+    border: 2px solid #10182F;
+}
+
+.se1 {
+    background-color: white;
+    color: #10182F;
+}
+
+/* Button Link Styling */
+.bt a {
+    color: white !important; /* Force white color */
+    text-decoration: none !important; /* Remove underline */
+}
+
+/* Navbar Container */
+.h11 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 2rem;
+    color: white;
+}
+
+
+.menu-toggle {
+    font-size: 24px;
+    color: white;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+/* Side Navbar */
+.side-nav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color:white;
+    overflow-x: hidden;
+    transition: 0.3s;
+    padding-top: 60px;
+    color: #10182F;
+    z-index: 1000;
+}
+
+.side-nav.open {
+    width: 250px; /* Open side navbar width */
+}
+
+.side-nav a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color:#10182F;
+    display: block;
+    transition: 0.3s;
+}
+
+.side-nav a:hover {
+    background-color: #10182F; /* Gold background on hover */
+    color: white; /* Dark blue text */
+    font-weight: bold;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    background-color: transparent;
+    border: none;
+    color:#10182F;
+    cursor: pointer;
+}
+
+/* Content */
+.content {
+    margin: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+}
